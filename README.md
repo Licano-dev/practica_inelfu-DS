@@ -1,2 +1,6 @@
 # practica_inelfu-DS
-Repositorio para la elaboración de la pagina web y sistema de información de la institución educativa INELFU
+[![Escudo INELFU](https://www.zoomnova.com/images/escudos/escudo_losfundadores.jpeg "Escudo INELFU")](https://www.zoomnova.com/images/escudos/escudo_losfundadores.jpeg "Escudo INELFU")
+
+------------
+**Repositorio para la elaboración de la página web y sistema de información de la institución educativa INELFU**
+### #### ### ## # )[Ver pagina Web](https://yonier999.github.io/practica_inelfu-DS/ "Ver pagina Web")
