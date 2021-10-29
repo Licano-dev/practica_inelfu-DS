@@ -688,14 +688,19 @@ a.navbar-brand img {
     padding: 0 30px;
 }
 
-.tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
-    background: #002147;
+.tab_menu ul li:nth-child(5) {
+    background: #FFFF00;
     transform: skew(-30deg);
 	color:#fff;
 }
 
 .tab_menu ul li:nth-child(6) {
-    background: #d4a81e;
+    background: #003300;
+    transform: skew(-30deg);
+	color:#fff;
+}
+.tab_menu ul li:nth-child(7){
+    background: #12963C;
     transform: skew(-30deg);
 	color:#fff;
 }
