@@ -3,14 +3,16 @@ body{
     font-size: 30;
 }
 
-.government-description{
+.graduate-description{
     text-align: justify;
 }
+.graduates-image{
+    
+}
 
-/* .student-general{
-    width: 350px;
-    border: solid #000 2px;
-} */
+.graduate-image{
+    
+}
 
 .student-general .student-card img{
     width: 315px;
