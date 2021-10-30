@@ -1,5 +1,5 @@
-*{
-    font-family:  Roboto, sans-serif;
+body{
+    font-family:sans-serif, 'Dancing Script';
     font-size: 30;
 }
 
@@ -30,7 +30,15 @@
     background-color: #151296;
 }
 
-.student-component{
+.student-title{
     /* margin-top: -40px; */
     background-color: #FFA800;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+.student-title img{
+    width: 200px;
+}
+.student-title-image img{
+    width: 200px;
 }
