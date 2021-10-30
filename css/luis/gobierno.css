@@ -23,12 +23,14 @@
 .student-name{
     margin: auto;
     /* width: 350px; */
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px 2px;
     color: #fff;
     border-radius: 20px;
     background-color: #151296;
 }
 
-.student-card .student-position{
-    border:solid 2px #000;
+.student-component{
+    /* margin-top: -40px; */
+    background-color: #FFA800;
 }
