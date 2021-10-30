@@ -1,0 +1,35 @@
+.container-section{
+	display: flex;
+	background-image: url('../images/colegio.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.container-section-info{
+	position: relative;
+	margin: 210px;
+}
+.container-section-info h2{
+	background:#ffffff;
+	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+.section-info{
+	background: rgba(248, 249, 249, 0.2);;
+	
+}
+.section-info h5{
+	text-align: left ;
+	color:  #000000;
+	margin: 5px;
+	
+}
+.section-info h6{
+	margin: 10px;
+	color: #000000;
+}
+hr{
+	height: 30px;
+	background:#ffffff;
+	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
