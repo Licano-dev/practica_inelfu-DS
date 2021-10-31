@@ -11,9 +11,10 @@ body{
 }
 
 .graduate-image{
-    
 }
-
+.graduate-description h3{
+    color: #12963C;
+}
 .student-general .student-card img{
     width: 315px;
 }
