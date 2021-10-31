@@ -15,30 +15,10 @@ body{
 .graduate-description h3{
     color: #12963C;
 }
-.student-general .student-card img{
-    width: 315px;
+.underlined{
+    margin-top: -30px;
+    height: 15px;
 }
-
-.student-top{
-    margin-top: -50px;
-}
-
-.student-name{
-    margin: auto;
-    /* width: 350px; */
-    font-size: 20px;
-    padding: 20px 2px;
-    color: #fff;
-    border-radius: 20px;
-    background-color: #151296;
-}
-
-.student-title{
-    /* margin-top: -40px; */
-    background-color: #FFA800;
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em;
-}
-.student-title img{
-    width: 200px;
+.separator{
+   /*  height: 50px; */
 }
