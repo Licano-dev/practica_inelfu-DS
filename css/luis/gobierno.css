@@ -1,0 +1,48 @@
+body{
+    font-family:sans-serif, 'Dancing Script';
+    font-size: 30;
+}
+
+.government-description{
+    text-align: justify;
+}
+.underlined{
+    margin-top: -30px;
+    height: 15px;
+}
+
+/* .student-general{
+    width: 350px;
+    border: solid #000 2px;
+} */
+
+.student-general .student-card img{
+    width: 315px;
+}
+
+.student-top{
+    margin-top: -50px;
+}
+
+.student-name{
+    margin: auto;
+    /* width: 350px; */
+    font-size: 20px;
+    padding: 20px 2px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #151296;
+}
+
+.student-title{
+    /* margin-top: -40px; */
+    background-color: #FFA800;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+.student-title img{
+    width: 200px;
+}
+.student-title-image img{
+    width: 200px;
+}
