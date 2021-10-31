@@ -1,0 +1,24 @@
+body{
+    font-family:sans-serif, 'Dancing Script';
+    font-size: 30;
+}
+
+.graduate-description{
+    text-align: justify;
+}
+.graduates-image{
+    
+}
+
+.graduate-image{
+}
+.graduate-description h3{
+    color: #12963C;
+}
+.underlined{
+    margin-top: -30px;
+    height: 15px;
+}
+.separator{
+   /*  height: 50px; */
+}
