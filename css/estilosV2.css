@@ -1,53 +1,57 @@
 .infoheader {
-  background-color: #00cc66;
-  display: flex;
-  justify-content: center;
-  height: 3rem;
-  align-items: center;
+    background-color: #12963C;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
 }
-.infoheader div{
+
+.infoheader div {
     margin: 0 5px;
     color: white;
     font-weight: bold;
 }
-#navbarNavDropdown{
+
+#navbarNavDropdown {
     justify-content: flex-end;
 }
-.nav-link{
-   color: white !important;
-}
-.nav-item:hover{
-  background-color: #00cc66;
-  border-radius: 5px;
 
+.nav-link {
+    color: white !important;
 }
 
-.top-header{
+.nav-item:hover {
+    background-color: #00cc66;
+    border-radius: 5px;
+}
+
+.top-header {
     background: none !important;
 }
-.bg_black{
+
+.bg_black {
     background: rgba(0, 0, 0, 0.49) !important;
 }
 
-.titulo{
+.titulo {
     color: #12963C !important;
 }
 
-.logo{
+.logo {
     width: 25%;
 }
 
-.slide_text{
+.slide_text {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.lineas{
+.lineas {
     height: 110px;
 }
 
-.contenido{
+.contenido {
     background: #fff;
     width: 80%;
     border-radius: 10px;
@@ -56,4 +60,112 @@
     box-shadow: 0px 0 14px 0 rgb(0 0 0 / 30%);
     overflow: hidden;
     padding: 0 30px;
+}
+
+.padding_himno {
+    padding-bottom: 10px;
+    padding: auto;
+}
+
+.card-title {
+    text-align: center;
+    color: white;
+}
+
+.card-text {
+    text-align: justify;
+    color: black;
+    font-weight: 500;
+}
+
+.himno {
+    background-image: url("../images/img_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_himno {
+    width: 15%;
+    margin-left: 8%;
+}
+
+.color_himno1 {
+    background-color: #006633;
+}
+
+.color_himno2 {
+    background-color: #FFD700;
+}
+
+.color_himno3 {
+    background-color: #C5C5CD;
+}
+
+.imagenes-simbolos {
+    width: 25% !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.full span {
+    font-weight: bold;
+    color: #006633;
+    text-decoration: underline;
+}
+
+.bg-black {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.footer_bottom {
+    background-color: #12963C;
+}
+
+.color-fondo {
+    background-color: rgba(196, 196, 196, 0.13);
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo-footer {
+    color: #FFFF00 !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+}
+
+.color-text {
+    color: white;
+}
+
+.logo-footer {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.modal-body {
+    background: url("../images/fondoHistoria.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.carousel-item h5,
+.carousel-item p {
+    color: black;
+}
+
+.d-md-block {
+    background: rgba(255, 255, 255, 0.507);
 }
