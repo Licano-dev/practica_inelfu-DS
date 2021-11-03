@@ -1,63 +1,21 @@
+.x{
+	padding: 30px;
+	display: flex;
+	height: 1000px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 .card{
+	display: flex;
 	background: #FFFFFF;
 	width: 528px;
 	height: 234px;
-	position: absolute;
+	/*position: absolute;
 	top: 110px;
-	left: 87px;
+	left: 87px;*/
 	border-radius: 10px;
 	box-shadow: 4px 4px 15px 4px #01A40882;
 
-}
-.card1{
-	background: #FFFFFF;
-	width: 528px;
-	height: 234px;
-	border-radius: 10px;
-	box-shadow: 4px 4px 15px 4px #01A40882;
-	position: absolute;
-	top: 110px;
-	right: 87px;
-}
-.card2{
-	background: #FFFFFF;
-	width: 528px;
-	height: 234px;
-	border-radius: 10px;
-	box-shadow: 4px 4px 15px 4px #01A40882;
-	position: absolute;
-	top:410px;
-	left:87px;
-}
-.card3{
-	background: #FFFFFF;
-	width: 528px;
-	height: 234px;
-	border-radius: 10px;
-	box-shadow: 4px 4px 15px 4px #01A40882;
-	position: absolute;
-	top: 410px;
-	right: 87px;
-}
-.card4{
-	background: #FFFFFF;
-	width: 528px;
-	height: 234px;
-	border-radius: 10px;
-	box-shadow: 4px 4px 15px 4px #01A40882;
-	position: absolute;
-	top:710px;
-	left:87px;
-}
-.card5{
-	background: #FFFFFF;
-	width: 528px;
-	height: 234px;
-	border-radius: 10px;
-	box-shadow: 4px 4px 15px 4px #01A40882;
-	position: absolute;
-	top: 710px;
-	right: 87px;
 }
 
 .img{
@@ -87,8 +45,6 @@ p{
 	color: #000000;
 }
 .fecha{
-	position: absolute;
-	left: 200px;
 	width: 125.05px;
 	height: 22.85px;
 	font-family: Raleway;
@@ -102,9 +58,7 @@ p{
 .botones{
 	display: flex;
 	justify-content: center;
-	position: absolute;
-	left: 439px;
-    top: 1000px;
+	
 
 }
 .btn{
@@ -118,5 +72,120 @@ p{
 .dos{
 	margin-left: 80px;
 }
+/*responsive*/
+@media (max-width: 576px){
+    .card{
+    	padding: 2px;
+    	height: 490px;
+    	width: 520px;
+    	display: flex;
+    }
+    .card-block{
+    	height: 250px;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    	
+    	
+    }
+    .fecha{
+    	font-size: 15px;
+    	
+    }
+    .x{
+    	padding: 30px;
+		display: flex;
+		height: 2000px;
+		width: 490px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+	.x{
+    	padding: 30px;
+		display: flex;
+		height: 1800px;
+		width: 600px;
+		flex-wrap: wrap;
+		align-content: flex-start;
+    }
+    .card{
+    	width: 600px;
+    	display: flex;
+
+    }
+    .fecha{
+    	position: absolute;
+    	left: 210px;
+    }
+    .botones{
+    	position: relative;
+    	top: 50px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.x{ 
+		padding: 30px;
+		display: flex;
+		height: 1800px;
+		width: 950px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+    .card{
+    	width: 650px;
+    	display: flex;
+
+    }
+    .fecha{
+    	position: absolute;
+    	left: 270px;
+    }
+  
+}
+@media (min-width: 992px) and (max-width: 1200px){
+	.x{
+		padding: 30px;
+		display: flex;
+		height: 1800px;
+		width: 950px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.card{
+    	width: 650px;
+    	display: flex;
+
+    }
+     .fecha{
+    	position: absolute;
+    	left: 270px;
+    }
+
+}
+@media (min-width: 1200px)and (max-width: 1400px){
+	.x{
+		padding: 30px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.fecha{
+    	position: absolute;
+    	left: 200px;
+    }
+  
+}
+@media (min-width: 1400px)and (max-width: 3000px){
+        .x{
+		padding: 30px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
 
 
