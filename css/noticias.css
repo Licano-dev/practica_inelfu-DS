@@ -1,0 +1,122 @@
+.card{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	position: absolute;
+	top: 110px;
+	left: 87px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+
+}
+.card1{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+	position: absolute;
+	top: 110px;
+	right: 87px;
+}
+.card2{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+	position: absolute;
+	top:410px;
+	left:87px;
+}
+.card3{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+	position: absolute;
+	top: 410px;
+	right: 87px;
+}
+.card4{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+	position: absolute;
+	top:710px;
+	left:87px;
+}
+.card5{
+	background: #FFFFFF;
+	width: 528px;
+	height: 234px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 15px 4px #01A40882;
+	position: absolute;
+	top: 710px;
+	right: 87px;
+}
+
+.img{
+	width: 286px;
+	height: 71px;
+}
+.card-img-top{
+	width: 236px;
+	height: 234px;
+}
+h2{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color:  #12963C;;
+}
+p{
+	width: 250.11px;
+	height: 127.97px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.fecha{
+	position: absolute;
+	left: 200px;
+	width: 125.05px;
+	height: 22.85px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #003300;
+	right: ;
+}
+.botones{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 439px;
+    top: 1000px;
+
+}
+.btn{
+	width: 176px;
+	height: 48px;
+	border-radius: 15px;
+}
+.uno{
+	margin-right:40px;
+}
+.dos{
+	margin-left: 80px;
+}
+
+
