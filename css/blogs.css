@@ -7,32 +7,84 @@
     width: 1006px;
     height: 346px;
     align-items: center;
-     position: relative;
+    position: relative;
     left: 81px;
 }
 .personas{
-	margin-left: 50px ;
+	position: absolute;
+	left: 85px;
+	bottom: 79px;
+	height: 224px;
+    width: 224px;
+    border-radius: 0px;
+
+	
 }
 
-h5{
-	width: 226px;
-	height: 19px;
+.personas h5{
 	position: relative;
-	top: 20px;
+	top: 22px;
+	height: 19px;
+	width: 226px;
+	border-radius: nullpx;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+
+
 }
-
-
 .foto-img{
+	width: 224px;
+    height: 224px;
 	border-radius: 50%;
+	border: 1px solid #000000;
+    box-sizing: border-box;
 }
 .personas-info{
-	margin-left: 150px ;
-	width: 572px;
+	position: absolute;
 	height: 184px;
+    width: 572px;
+    left: 392px;
+    top: 81px;
+    border-radius: nullpx;
+
 }
-.btn-success{
+h4{
+    width: 521px;
+    height: 28px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21.5474px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #CCCC33 !important;
+}
+p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: justify;
+	color: #000000 ;
+}
+.btn{
 	position: relative;
-	left: 450px;
-	top: 30px;
+	width: 105px;
+	height: 42px;
+	top: 70px;
+	left: 500px;
+	border: 1px solid red;
+	background:#00CC66 !important; 
 	border-radius: 30px;
 }
+/*rsponsive*/
+
+
+
