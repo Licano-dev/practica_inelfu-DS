@@ -2,26 +2,31 @@
 	background-image: url('../images/colegio.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	overflow: hidden;
+	height: 1220px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .container-section{
 	display: flex;
 	text-align: center;
-	overflow: hidden;
-	width: 1141.58px;
-    height: 825.9px;
-    position: relative;
-    left: 83px;
+	width: 943.21px;
+    height: 470.44px;
 }
-.container-section-info{
+/*.container-section-info{
+	display: flex;
+	flex-wrap: wrap;
 	margin: 145px;
 	height: 470px;
     width: 943px;
-}
+    border: 1px solid red;
+}*/
 .container-section-info h2{
 	background:#ffffff;
 	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
-	width: 850.11px;
-    height: 45.92px;
+	/*width: 850.11px;
+    height: 45.92px;*/
 	font-family: Roboto;
 	font-size: 36px;
 	font-style: normal;
@@ -32,14 +37,15 @@
 	color: #000000;
 
 }
-.section-info{
+/*.section-info{
+	display: flex;
 	width: 830px;
-}
+}*/
 .section-info h5{
 	color:  #000000;
 	margin: 5px;
-	width: 850.11px;
-    height: 45.92px;
+	/*width: 850.11px;
+    height: 45.92px;*/
 	font-family: Roboto;
 	font-size: 24px;
 	font-style: normal;
@@ -52,8 +58,6 @@
 }
 .info{
 	background: rgba(248, 249, 249, 0.1);
-	width: 843.89px;
-    height: 396.33px;
     padding: 5px;
     margin: 5px;
 }
@@ -73,5 +77,9 @@ hr{
 	height: 30px !important;
 	background:#ffffff !important;
 	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5)!important;
-	opacity: 190 !important;
+	opacity: 1000 !important;
+}
+/*responsive*/
+@media (max-width: 576px){
+	
 }
