@@ -3,22 +3,65 @@ body{
     font-size: 30;
 }
 
-.graduate-description{
+.container .row .col .graduate-description{
     text-align: justify;
 }
-.graduates-image{
-    
-}
-
-.graduate-image{
-}
-.graduate-description h3{
+.container .graduates-collage .row .graduate-description h3{
     color: #12963C;
 }
 .underlined{
-    margin-top: -30px;
-    height: 15px;
+    margin-top: -15px;
+    
 }
 .separator{
    /*  height: 50px; */
+}
+/* .container .graduate-profile{
+    /* 
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 33%, rgba(253,44,33,1) 65%, rgba(252,176,69,1) 100%);  */
+    /* background-color: #FF0000;
+    border-radius: 10px;
+}
+.container .graduate-profile:nth-child(3){
+    background-color: #78008B;
+} */
+
+/* .container .graduate-profile:nth-child(4){
+    background-color: #008005;
+}
+
+.container .graduate-profile:nth-child(5){
+    background-color: #0079BD;
+}
+
+.container .graduate-profile:nth-child(6){
+    background-color: #78008B;
+}
+
+.container .graduate-profile:nth-child(7){
+    background-color: #00C9D6;
+} */ 
+
+.container  .card .card-body .card-text-justify{
+    text-align: justify;
+}
+
+.container .row .card-first{
+    background-color: #ff0000;
+}
+.container .row .card-second{
+    background-color: #78008B;
+}
+.container .row .card-third{
+    background-color: #008005;
+}
+.container .card-fourth{
+    background-color: #0079BD;
+}
+.container .card-fith{
+    background-color: #A50077;
+}
+.container .row .card-sixth{
+    background-color: #00C9D6;
 }
