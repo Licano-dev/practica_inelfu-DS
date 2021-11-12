@@ -65,3 +65,11 @@ body{
 .container .row .card-sixth{
     background-color: #00C9D6;
 }
+.container .row .card-zero{
+    background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+    border-radius: 10px;
+}
+
+.container .row .card-zero:nth-child(){
+    background-color:#A50077;
+}
