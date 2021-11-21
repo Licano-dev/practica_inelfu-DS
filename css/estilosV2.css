@@ -169,3 +169,7 @@
 .d-md-block {
     background: rgba(255, 255, 255, 0.507);
 }
+
+.text-just{
+    text-align: justify;
+}
