@@ -108,7 +108,10 @@
 .center {
     text-align: center;
 }
-
+.center_img{
+    align-items: center;
+    text-align: center;
+}
 .full span {
     font-weight: bold;
     color: #006633;
@@ -172,4 +175,7 @@
 
 .text-just{
     text-align: justify;
+}
+.padding_cero{
+    padding: 0;
 }
