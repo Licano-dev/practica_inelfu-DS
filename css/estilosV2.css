@@ -239,3 +239,7 @@ border: 9px solid #12963C;
 .contenido_sede{
     font-weight: 500;
 }
+
+.sombra{
+    box-shadow: -10px -10px 8px #767676;;
+}
