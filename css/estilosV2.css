@@ -79,9 +79,13 @@
 }
 
 .himno {
-    background-image: url("../images/img_header.png");
+    background-image: url("../images/fondoHimno.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .img_himno {
@@ -158,7 +162,13 @@
 }
 
 .modal-body {
-    background: url("../images/fondoHistoria.png");
+    background: url("../images/fondoHimno.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+.modal-body_contac {
+    background: #12963C;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
@@ -178,4 +188,50 @@
 }
 .padding_cero{
     padding: 0;
+}
+
+.info_historia{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.info_historia div{
+    padding: 10px;
+}
+
+.tituloHistoria{
+    color: black;
+    font-size: 30px;
+}
+.img_histy{
+    border: 2px solid black;
+    border-radius: 0px 110px 0px 114px;
+-moz-border-radius: 0px 110px 0px 114px;
+-webkit-border-radius: 0px 110px 0px 114px;
+border: 6px solid #818181;
+}
+
+.contenidoHistory{
+    background: #ffffff63 !important;
+    border-radius: 0px 0px 0px 132px;
+-moz-border-radius: 0px 0px 0px 132px;
+-webkit-border-radius: 0px 0px 0px 132px;
+border: 9px solid #12963C;
+
+}
+.contenidoHistory p{
+    color: #000000 !important;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.header_tama{
+    height: 500px !important;
+}
+
+.btn-color{
+    background-color: #006633 !important;
+}
+.btn-color:hover{
+    background-color: #ecf3f0 !important;
+
 }
