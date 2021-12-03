@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <!-- Basic -->
 
 <head>
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Metas -->
-    <title>Perfect - Responsive HTML5 Template</title>
+    <title>Institución Educativa los Fundadores</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -30,6 +30,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilosV2.css">
+    <link rel="shortcut icon" href="./images/escudoInelfu.png" type="image/x-icon">
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -40,39 +44,46 @@
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
     <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-            <img src="images/loader.gif" alt="#" />
-        </div>
-    </div>
+
     <!-- end loader -->
     <!-- END LOADER -->
 
     <!-- Start header -->
     <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
+        <div class="grid infoheader">
+            <div class="g-col-6"><img src="images/icono_carta.png" alt=""></div>
+            <div class="g-col-6"><span>ielosfundadores@sedcaldas.gov.co</span></div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg_black">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">About</a></li>
-                        <li><a class="nav-link" href="courses.html">Courses</a></li>
-                        <li><a class="nav-link" href="reaserch.html">Reaserch</a></li>
-						<li><a class="nav-link" href="news.html">News</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-target="#sedes" data-bs-toggle="modal" href="#">Sedes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blogs.html">Noticias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Institucion
                     </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./gobiernoEscolar.html">Gobierno Escolar</a></li>
+                                <li><a class="dropdown-item" href="./egresados.html">Egresados</a></li>
+                                <li><a class="dropdown-item" href="./perfil.html">Perfiles</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -80,367 +91,473 @@
     <!-- End header -->
 
     <!-- Start Banner -->
+
     <div class="ulockd-home-slider">
-        <div class="container-fluid">
+        <div class="container-fluid padding_cero">
             <div class="row">
-                <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img.png);">
+                <div class="pogoSlider header_tama" id="js-main-slider">
+                    <div class="pogoSlider-slide" style="background-image:url(images/portada3.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slide_text">
-                                        <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
+                                        <img src="images/escudoInelfu.png" class="logo" alt="Escudo Inelfu">
                                         <br>
-                                        <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
-										</div>
+                                        <h3 class="titulo">INSTITUCIÓN EDUCATIVA LOS FUNDADORES</h3>
+
+                                        <br>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img.png);">
+                    <div class="pogoSlider-slide" style="background-image:url(images/portada1.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slide_text">
-                                        <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
+                                        <img src="images/escudoInelfu.png" class="logo" alt="Escudo Inelfu">
                                         <br>
-                                        <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
-										</div>
+                                        <h3 class="titulo">INSTITUCIÓN EDUCATIVA LOS FUNDADORES</h3>
+
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pogoSlider-slide" style="background-image:url(images/portada2.jpg);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="slide_text">
+                                        <img src="images/escudoInelfu.png" class="logo" alt="Escudo Inelfu">
+                                        <br>
+                                        <h3 class="titulo">INSTITUCIÓN EDUCATIVA LOS FUNDADORES</h3>
+
+                                        <br>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- .pogoSlider -->
+
             </div>
+            <!-- .pogoSlider -->
         </div>
     </div>
+    
     <!-- End Banner -->
     <!-- section -->
-	<div class="section tabbar_menu">
-	   <div class="container">
-	      <div class="row">
-		      <div class="col-md-12">
-			     <div class="tab_menu">
-				    <ul>
-					   <li><a href="#"><span class="icon"><img src="images/i1.png" alt="#" /></span><span>University Life</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i2.png" alt="#" /></span><span>Graduation</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i3.png" alt="#" /></span><span>Athletics</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i4.png" alt="#" /></span><span>Social</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i5.png" alt="#" /></span><span>Location</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i6.png" alt="#" /></span><span>Call us</span></a></li>
-					   <li><a href="#"><span class="icon"><img src="images/i7.png" alt="#" /></span><span>Email</span></a></li>
-					</ul>
-				 </div>
-			  </div>
-		  </div>
-	   </div>
-	</div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section margin-top_50">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 layout_padding_2">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <h2><span>Welcome To</span> Education</h2>
-                        </div>
-						<div class="full">
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-						  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-						  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-						</div>
-						<div class="full">
-						   <a class="hvr-radial-out button-theme" href="#">About more</a>
-						</div>
-                    </div>
-                </div>
-				<div class="col-md-6">
-                    <div class="full">
-                        <img src="images/img2.png" alt="#" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section layout_padding">
+    <div class="section tabbar_menu">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>Popular </span>Courses</h2>
-                        </div>
-					  </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                       <img class="img-responsive" src="images/p1.png" alt="#" /> 
-					   <h4>Financial Accounting</h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p2.png" alt="#" />
-						<h4>Managerial Accounting</h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/p3.png" alt="#" />
-						<h4>Intermediate Accounting</h4>
+                    <div class="tab_menu">
+                        <ul>
+                            <li><a href="#historia"><span class="icon"><img src="images/i1.png" alt="#" /></span><span>Horizonte Institucional</span></a></li>
+                            <li><a href="#objetivos"><span class="icon"><img src="images/lista.png" alt="#" /></span><span>Objetivos</span></a></li>
+                            <li><a href="#himno"><span class="icon"><img src="images/notas.png" alt="#" /></span><span>Himno</span></a></li>
+                            <li><a href="#escudo"><span class="icon"><img src="images/bandera.png" alt="#" /></span><span>Escudo</span></a></li>
+                            <li class="lineas"><a href="#"><span class="icon"></span></a></li>
+                            <li class="lineas"><a href="#"><span class="icon"></span></a></li>
+                            <li class="lineas"><a href="#"><span class="icon"></span><span></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section margin-top_50 silver_bg">
+    <!-- end section -->
+    <!-- section -->
+    <div class="section margin-top_50 contenido" id="objetivos">
         <div class="container">
-            <div class="row">
-			    <div class="col-md-6">
-                    <div class="full float-right_img">
-                        <img src="images/img6.png" alt="#" />
+            <div class="row center_img">
+                <div class="col-md-6">
+                    <div class="full">
+                        <img src="images/img1.jpg" alt="#" />
                     </div>
                 </div>
                 <div class="col-md-6 layout_padding_2">
                     <div class="full">
                         <div class="heading_main text_align_left">
-						   <h2><span>Apply for Admission</h2>
+                            <h2>Misión</h2>
                         </div>
-						<div class="full">
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-						  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-						  sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-						</div>
-						<div class="full">
-						   <a class="hvr-radial-out button-theme" href="#">Apply</a>
-						</div>
+                        <div class="full text-just">
+                            <p>
+                                La Institución Educativa Los Fundadores ubicada en el municipio d Riosucio del departamento de Caldas, en el marco de un modelo humano cognitivo con enfásis académico, presta el servicio educativo fortaleciendo competencias básicas, académicas, humanas y ñaborañes en articulación con el SENA las cuales cohesionan y comprometen al estudiante en su desempeño para la convivencia, la civilidad y la ciudadania.
+                            </p>
+                        </div>
+                        <!-- <div class="full">
+                            <a class="hvr-radial-out button-theme" href="#">About more</a>
+                        </div> -->
                     </div>
                 </div>
-			</div>
+
+            </div>
         </div>
     </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section layout_padding padding_bottom-0">
+
+    <div class="section margin-top_50 contenido">
+        <div class="container">
+            <div class="row center_img">
+
+                <div class="col-md-6 layout_padding_2">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+                            <h2>Visión</h2>
+                        </div>
+                        <div class="full text-just">
+                            <p>
+                                Para el año 2021. LA institución Educativa Los Fundadores habrá consolidado su modelo pedagógico humano-cognitivo, articulado con instituciones de Superior y cuyos logros se pondrán evidenciar en las reconocidas competencias artisticas, éticas, cientificas y tecnológicas de nuestros egresados, puestas al servicio de la comunidad y capaces de generar cambios en la dinámica social, económica y cultural del municipio, la región y el pais.
+                            </p>
+                        </div>
+                        <!-- <div class="full">
+                            <a class="hvr-radial-out button-theme" href="#">About more</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="full">
+                        <img src="images/img3.jpg" style="width: 52% !important;" alt="#" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <br>
+    <!-- section -->
+    <div class="section layout_padding " id="himno">
+        <div class="container card himno">
+            <div class="row padding_himno" style="align-items: center;">
+                <div class="col-md-12">
+                    <div class="full">
+                        <div class="heading_main text_align_center">
+                            <h2>Himno</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="card color_himno1" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">I</h5>
+
+                            <p class="card-text">Vista al cielo y con voz cristalina Y en el alma un anhelo febril, Vista al sol como el águila andina A cantar con ardor juvenil.
+                                <img class="img_himno" src="images/notas.png" alt="">
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color_himno2" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">II</h5>
+
+                            <p class="card-text">Ante Dios y la patria juramos, Como hombres cumplir el deber, Ya que sangre en las venas llevamos De los héroes invictos de ayer.
+                                <img class="img_himno" src="images/notas.png" alt="">
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color_himno3" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">III</h5>
+
+                            <p class="card-text">A escalar de la ciencia la cima A buscar en el libro el solaz El colegio es acero que lima Y da al alma sonrisas y paz
+
+                                <img class="img_himno" src="images/notas.png" alt="">
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row padding_himno">
+                <div class="col-md-12">
+                    <div class="full">
+                        <div class="heading_main text_align_center">
+                            <h2>Coro</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="card color_himno1" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">IV</h5>
+
+                            <p class="card-text">Adelante en la noble tarea De arrancar a la ciencia el filón, Ella es arte, es belleza, es tea, Es virtud, es amor, y es canción
+                                <img class="img_himno" src="images/notas.png" alt="">
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color_himno2" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">V</h5>
+
+                            <p class="card-text">El colegio es un nido de amores Donde brilla el saber cuál fanal, Do se tornan las almas en flores Bajo el beso de un sol tropical
+                                <img class="img_himno" src="images/notas.png" alt="">
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color_himno3" style="width: 18rem;">
+                        <div class="card-body sombra">
+                            <h5 class="card-title">VI</h5>
+
+                            <p class="card-text">
+                                Adelante cual nobles corceles La diadema gloriosa alcanzar, Pues la frente que anhela laureles, Antes debe sin tregua luchar
+                                <img class="img_himno" src="images/notas.png" alt="">
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <!-- section -->
+    <div class="section margin-top_50 silver_bg" id="historia">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <h2><span>Reaserch</span></h2>
-                        </div>
-						<div class="full">
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-						  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						</div>
-						<div class="full">
-						   <a class="hvr-radial-out button-theme" href="#">See More</a>
-						</div>
+                    <div class="full float-right_img">
+                        <img src="images/colegioIne.jpg" alt="#" />
                     </div>
                 </div>
-				<div class="col-md-6">
+                <div class="col-md-6 layout_padding_2">
                     <div class="full">
-                        <img class="img-responsive" src="images/img7.png" alt="#" />
+                        <div class="heading_main text_align_left">
+                            <h2>HORIZONTE INSTITUCIONAL</h2>
+                        </div>
+                        <div class="full">
+                            
+                            <p style="text-align: justify;">
+                                La Institución Educativa LOS FUNDADORES atendiendo al principio que toda Comunidad Educativa requiere de un Direccionamiento Estratégico que marque la ruta a seguir de todos y cada uno de sus actores, ha asumido el presente Manual de Integración y Convivencia Escolar como resultado del trabajo en equipo, producto de muchos años, de docentes, padres de familia, estudiantes, egresados, directivos docentes y comunidad educativa en general.
+                            </p>
+                        </div>
+                        <div class="full">
+                            <a class="hvr-radial-out button-theme" href="#" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Leer mas</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section layout_padding padding_bottom-0">
+    <!-- end section -->
+    <!-- section -->
+    <div class="section layout_padding padding_bottom-0" id="escudo">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>News</span></h2>
-                        </div>
-					  </div>
+            <div class="row" style="align-items: center;">
+                <div class="col-md-6">
+                    <div class="full center">
+                        <img class="logo" style="width: 70%;" src="images/escudoInelfu.png" alt="#" />
+                    </div>
                 </div>
-			  </div>
-               <div class="row">
-                <div class="col-lg-12">
-                    <div id="demo" class="carousel slide" data-ride="carousel">
-
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-									   <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/img9.png" alt="#" />
-										  <h4>Technology</h4>
-										  <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-										</div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/img8.png" alt="#" />
-										  <h4>Education</h4>
-										  <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-										</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-									   <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/img9.png" alt="#" />
-										  <h4>Technology</h4>
-										  <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-										</div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/img8.png" alt="#" />
-										  <h4>Education</h4>
-										  <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-										</div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md-6">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+                            <h2>NUESTRO ESCUDO</h2>
                         </div>
+                        <div class="full">
+                            <p><span>LA FRANJA EXTERIOR:</span> Con la punta en medio de la base y un borde rodea todo el escusón o parte central. Su color dorado traduce fuerza, fe y constancia; ingredientes del éxito en el estudio.</p>
 
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
+                            <p><span>EL ESCUSÓN:</span> Con fondo de franjas verdes y una franja central blanca, mensaje de fe y esperanza. En él se observan estos símbolos:</p>
+
+                            <p><span>SIGNO DE PI:</span> Símbolo matemático de la ciencia, su color negro es modestia ante su trascendencia.</p>
+
+                            <p><span>EL LIBRO:</span> Guía de la edad juvenil, emblema placentero de la vejez, relicario de la mente y amigo en la sociedad. Su color plata es lema de amparo y sinceridad.</p>
+
+                            <p><span>LA LLAVE:</span> Signo para abrir la mente del mundo de la ciencia, ampliar la sala permanente del cerebro y recibir así esos huéspedes indecibles e indefinidos que son los conocimientos.</p>
+
+                            <p><span>LA PLUMA:</span> Brújula que en el campo del magnetismo de las ideas y las palabras constituye una invitación a escribir en un orden lógico de belleza, ideas y razón</p>
+
+
+                        </div>
 
                     </div>
                 </div>
 
-            </div>			  
-           </div>
+            </div>
+
+<hr style="border: 1px solid black">
+            <div class="row" style="align-items: center;">
+
+                <div class="col-md-6">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+                            <h2>NUESTRA BANDERA</h2>
+                        </div>
+                        <div class="full">
+                            <p><span>COLOR VERDE:</span> Refleja la vida, la juventud, las cosas bellas que llegan por medio del conocimiento, del amor y sacrificio por los libros. Refleja los ideales de la paz y la esperanza</p>
+
+                            <p><span>COLOR BLANCO:</span> Representa los objetivos a los cuales se dirigen los deseos, acciones de sus protegidos en búsqueda de una armonía y entendimiento permanente.</p>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="full center ">
+                        <img class="logo" style="width: 70%;" src="images/banderaInelfu.png" alt="#" />
+                    </div>
+                </div>
+
+            </div>
         </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section layout_padding padding_bottom-0">
+    </div>
+    <!-- end section -->
+
+    <div class="section margin-top_50 contenido" id="">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+
+                <div class="col-md-6 layout_padding_2">
                     <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>Contact</span></h2>
+                        <div class="heading_main text_align_left">
+                            <h2>Contactanos</h2>
                         </div>
-					  </div>
-                </div>
-			  </div>
-           </div>
-        </div>
-	<!-- end section -->
-	<!-- section -->
-    <div class="section contact_section" style="background:#12385b;">
-        <div class="container">
-               <div class="row">
-                 <div class="col-lg-6 col-md-6 col-sm-12">
-				    <div class="full float-right_img">
-                        <img src="images/img10.png" alt="#">
+                        <div class="full text-just">
+                            <p>
+                                Sede Central (Los Fundadores) <br>
+                                Telefono (+57)(6)859 2204 <br>
+                                Celular 310-452-3823
+                            </p>
+                        </div>
+                        <div class="full">
+                            <a class="hvr-radial-out button-theme" href="#" data-bs-target="#conctacto" data-bs-toggle="modal">Contactar</a>
+                        </div>
+                        
                     </div>
-                 </div>
-				 <div class="layout_padding col-lg-6 col-md-6 col-sm-12">
-				    <div class="contact_form">
-					    <form action="contact.html">
-						   <fieldset>
-						       <div class="full field">
-							      <input type="text" placeholder="Your Name" name="your name" />
-							   </div>
-							   <div class="full field">
-							      <input type="email" placeholder="Email Address" name="Email" />
-							   </div>
-							   <div class="full field">
-							      <input type="phn" placeholder="Phone Number" name="Phone number" />
-							   </div>
-							   <div class="full field">
-							      <textarea placeholder="Massage"></textarea>
-							   </div>
-							   <div class="full field">
-							      <div class="center"><button>Send</button></div>
-							   </div>
-						   </fieldset>
-						</form>
-					</div>
-                 </div>
-               </div>			  
-           </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="full">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9619847624745!2d-75.70618478590872!3d5.42274703648496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e47078519b207e9%3A0xa44826c274848ddb!2sCra.%205%20%2311-25%2C%20Riosucio%2C%20Caldas!5e0!3m2!1ses!2sco!4v1637506293847!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
         </div>
-	<!-- end section -->
+        </div>
+
+
     <!-- Start Footer -->
-    <footer class="footer-box">
+    <footer class="footer-box bg-black">
+        <!-- <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog">
+                        <div class="full margin-bottom_30">
+                            <img src="images/footer_logo.png" alt="#" />
+                        </div>
+                        <div class="full white_fonts">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog footer_menu white_fonts">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">> Join Us</a></li>
+                            <li><a href="#">> Maintenance</a></li>
+                            <li><a href="#">> Language Packs</a></li>
+                            <li><a href="#">> LearnPress</a></li>
+                            <li><a href="#">> Release Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog full white_fonts">
+                        <h3>Newsletter</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <div class="newsletter_form">
+                            <form action="index.html">
+                                <input type="email" placeholder="Your Email" name="#" required />
+                                <button>Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer_blog full white_fonts">
+                        <h3>Contact us</h3>
+                        <ul class="full">
+                            <li><img src="images/i5.png"><span>London 145<br>United Kingdom</span></li>
+                            <li><img src="images/i6.png"><span>demo@gmail.com</span></li>
+                            <li><img src="images/i7.png"><span>+12586954775</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div> -->
+
+        <!-- </div> -->
+        
         <div class="container">
-		
-		   <div class="row">
-		   
-		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-			     <div class="footer_blog">
-				    <div class="full margin-bottom_30">
-					   <img src="images/footer_logo.png" alt="#" />
-					 </div>
-					 <div class="full white_fonts">
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-					 </div>
-				 </div>
-			  </div>
-			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-			       <div class="footer_blog footer_menu white_fonts">
-						    <h3>Quick links</h3>
-						    <ul> 
-							  <li><a href="#">> Join Us</a></li>
-							  <li><a href="#">> Maintenance</a></li>
-							  <li><a href="#">> Language Packs</a></li>
-							  <li><a href="#">> LearnPress</a></li>
-							  <li><a href="#">> Release Status</a></li>
-							</ul>
-						 </div>
-				 </div>
-				 
-				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h3>Newsletter</h3>
-							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-							 <div class="newsletter_form">
-							    <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>
-							 </div>
-						 </div>
-					</div>	 
-			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h3>Contact us</h3>
-							 <ul class="full">
-							   <li><img src="images/i5.png"><span>London 145<br>United Kingdom</span></li>
-							   <li><img src="images/i6.png"><span>demo@gmail.com</span></li>
-							   <li><img src="images/i7.png"><span>+12586954775</span></li>
-							 </ul>
-						 </div>
-					</div>	 
-			  
-		   </div>
-		
+            <div class="grid" style="display: flex;
+            justify-content: space-between;">
+                <div class="g-col-8 color-fondo ">
+                    <ul class="full color-text">
+                        <li><img src="images/i5.png" class="logo-footer"><span class="titulo-footer ">UBICACIÓN</span><br></li>
+                        <li>Cr 5 N° 11-25</li>
+                        <li>Sede central- Avenida los Fundadores</li>
+                        <li>RIOSUCIO CALDAS</li>
+                    </ul>
+                </div>
+                <div class="g-col-4 color-fondo ">
+                    <ul class="full">
+                        <li><img src="images/nube.png" class="logo-footer"><span class="titulo-footer ">NUESTRAS REDES</span></li>
+                        <div class="redes ">
+                            <a href="#">
+                                <li><img src="images/facebook.png"></li>
+                            </a>
+                            <a href="#">
+                                <li><img src="images/instagram.png"></li>
+                            </a>
+                            <a href="#">
+                                <li><img src="images/youtube.png"></li>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </footer>
     <!-- End Footer -->
@@ -449,7 +566,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© Copyrights 2019 design by html.design</p>
+                    <p class="crp">© Copyright 2021 Institución Educativa los Fundadores - Todos los derechos reservados</p>
                 </div>
             </div>
         </div>
@@ -457,9 +574,170 @@
 
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body" >
+                    <div style="text-align: center;">
+                        <h5 class="modal-title tituloHistoria" id="exampleModalToggleLabel2"> HORIZONTE INSTITUCIONAL
+                        </h5>
+                    </div>
+                    <div class="info_historia">
+                        <div><img src="./images/colegioIne.jpg" class="img_histy" alt="" width="500"></div>
+                        <div class="contenidoHistory" style="padding-top: 5rem;">
+                            <p>La Institución Educativa Los Fundadores, concibe su filosofía como el pensar de los procesos que le permiten mirar su quehacer pedagógico, a partir de cuatro aspectos básicos, debidamente articulados. Esos aspectos son: La reflexión, el consenso, la participación y las estrategias de solución. Es decir, la directriz reflexiva que la institución debe dar respuesta a interrogantes tales como: ¿Qué es? ¿De dónde viene?  ¿Para dónde va?
+                            </p>
+                        
+                            
+                        
+                            </div>
+                    </div>
+                    <br><br>
+                    <div class="contenidoHistory" style="padding: 50px;">
+                        <p>
+                            En tal sentido, la nuestra, es una institución académica que se propone propiciar espacios de reflexión, entendida ésta como todo aquello que nos ha permitido saber cómo es que se han dado las actuaciones. Esa mirada reposada descansa en el quehacer pedagógico, administrativo y laboral que la institución vivencia diariamente en procura de consolidar un proceso coherente reflejado en la actitud y calidad de sus educandos. De igual manera, privilegiará el consenso como instancia mediadora para la resolución de los conflictos. Naturalmente el disenso tendrá cabida dentro de un clima de respeto y tolerancia por las posiciones contrarias. Por el sano debate, la confrontación civilizada, la discrepancia como argumentos, serán los pasos previos que alimenten el consenso como la categoría más indicada para aunar esfuerzos en procura de objetivos comunes.
+                        </p><br>
+                        <p style="padding: 20px;">Así mismo la participación será un aspecto que la institución apoyará, desde sus distintas instancias, así lo entiende ella como un ejercicio necesario para el fortalecimiento de una verdadera democracia, que tiene en el consenso de los diversos actores en su máxima expresión.
+                            <br>
+                            Por consiguiente, de seguirse y practicarse con respeto los tres aspectos descritos, es obvio que las estrategias de solución emanan como una consecuencia de la articulación de las partes, por lo que los caminos de las soluciones serán las conjunciones de voluntades para resolver problemas colectivos y de beneficios comunitarios.
+                            <br>
+                             
+                            Finalmente, el reconocer que la institución es un espacio de múltiples relaciones e interacciones, eso explica, el papel protagónico que tiene en el direccionamiento y liderazgo tanto en el campo académico, administrativo, como en el de la formación del recurso humano que en ella coexisten.
+                        </p>
+                    </div>
+                   
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sedes -->
+    <div class="modal fade" id="sedes" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/inelfu.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 style="text-transform: uppercase;">Institucion Educativa Los Fundadores - Sede Principal</h5>
+                                    <p class="contenido_sede">
+                                        Institucion Educativa Los Fundadores - Sede Principal es una sede del establecimiento Institucion Educativa Los Fundadores identificada con el número 117614000711 ubicada en Riosucio, Caldas zona Urbana con dirección Cr 5 11 25 y número de contacto 8592203 - 8592205. Institucion Educativa Los Fundadores - Sede Principal cuenta con los niveles Preescolar,Media,Básica Secundaria,Básica Primaria y grados 0,1,2,3,4,5,6,7,8,9,10,11.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/pio12.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>SEDE Pio XII</h5>
+                                    <p class="contenido_sede">Centro Docente Pio Xii es una sede del establecimiento Institucion Educativa Los Fundadores identificada con el número 117614000702 ubicada en Riosucio, Caldas zona Urbana con dirección Carrera 5 No. 11-76 y número de contacto 8592204 EXT 106. Centro Docente Pio Xii cuenta con los niveles Preescolar,Básica Primaria y grados 0,1,2,3,4,5.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/antoniNariño.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>SEDE Antonio Nariño</h5>
+                                    <p class="contenido_sede">
+                                        Escuela Urbana Antonio Nariño es una sede del establecimiento Institucion Educativa Los Fundadores identificada con el número 117614001385 ubicada en Riosucio, Caldas zona Urbana con dirección Calle 8 10-35 y número de contacto 8591424. Escuela Urbana Antonio Nariño cuenta con los niveles Preescolar,Básica Primaria y grados 0,1,2,3,4,5.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/joseOlimpo.JPG" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>SEDE Jose Olimpo Morales</h5>
+                                    <p class="contenido_sede">Centro Docente Jose Olimpo Morales es una sede del establecimiento Institucion Educativa Los Fundadores identificada con el número 117614000770 ubicada en Riosucio, Caldas zona Urbana con dirección Calle 5 9-30 y número de contacto 8594665. Centro Docente Jose Olimpo Morales cuenta con los niveles Preescolar,Básica Primaria y grados 0,1,2,3,4,5.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="conctacto" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center;">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body_contac">
+
+                    <div style="text-align: center;">
+                        <h5 class="modal-title" id="contacto">Formulario de contacto
+                        </h5>
+                    </div>
+                    <div class="layout_padding" style="padding-top: 0;">
+                        <div class="contact_form">
+                            <form action="">
+                                <div class="mb-3">
+                                  
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+                                  
+                                </div>
+
+                                <div class="mb-3">
+                                  
+                                    <input type="tel" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Telefono">
+                                    
+                                </div>
+
+                                <div class="mb-3">
+                                  
+                                    <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                                  </div>
+                                
+                                <button type="submit" class="btn btn-color">Enviar</button>
+                              </form>
+                        </div>
+                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- ALL JS FILES -->
     <script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -471,108 +749,112 @@
     <script src="js/isotope.min.js"></script>
     <script src="js/images-loded.min.js"></script>
     <script src="js/custom.js"></script>
-	<script>
-	/* counter js */
+    <script src="js/interactividad.js"></script>
+    <script>
+        /* counter js */
 
-(function ($) {
-	$.fn.countTo = function (options) {
-		options = options || {};
-		
-		return $(this).each(function () {
-			// set options for current element
-			var settings = $.extend({}, $.fn.countTo.defaults, {
-				from:            $(this).data('from'),
-				to:              $(this).data('to'),
-				speed:           $(this).data('speed'),
-				refreshInterval: $(this).data('refresh-interval'),
-				decimals:        $(this).data('decimals')
-			}, options);
-			
-			// how many times to update the value, and how much to increment the value on each update
-			var loops = Math.ceil(settings.speed / settings.refreshInterval),
-				increment = (settings.to - settings.from) / loops;
-			
-			// references & variables that will change with each update
-			var self = this,
-				$self = $(this),
-				loopCount = 0,
-				value = settings.from,
-				data = $self.data('countTo') || {};
-			
-			$self.data('countTo', data);
-			
-			// if an existing interval can be found, clear it first
-			if (data.interval) {
-				clearInterval(data.interval);
-			}
-			data.interval = setInterval(updateTimer, settings.refreshInterval);
-			
-			// initialize the element with the starting value
-			render(value);
-			
-			function updateTimer() {
-				value += increment;
-				loopCount++;
-				
-				render(value);
-				
-				if (typeof(settings.onUpdate) == 'function') {
-					settings.onUpdate.call(self, value);
-				}
-				
-				if (loopCount >= loops) {
-					// remove the interval
-					$self.removeData('countTo');
-					clearInterval(data.interval);
-					value = settings.to;
-					
-					if (typeof(settings.onComplete) == 'function') {
-						settings.onComplete.call(self, value);
-					}
-				}
-			}
-			
-			function render(value) {
-				var formattedValue = settings.formatter.call(self, value, settings);
-				$self.html(formattedValue);
-			}
-		});
-	};
-	
-	$.fn.countTo.defaults = {
-		from: 0,               // the number the element should start at
-		to: 0,                 // the number the element should end at
-		speed: 1000,           // how long it should take to count between the target numbers
-		refreshInterval: 100,  // how often the element should be updated
-		decimals: 0,           // the number of decimal places to show
-		formatter: formatter,  // handler for formatting the value before rendering
-		onUpdate: null,        // callback method for every time the element is updated
-		onComplete: null       // callback method for when the element finishes updating
-	};
-	
-	function formatter(value, settings) {
-		return value.toFixed(settings.decimals);
-	}
-}(jQuery));
+        (function($) {
+            $.fn.countTo = function(options) {
+                options = options || {};
 
-jQuery(function ($) {
-  // custom formatting example
-  $('.count-number').data('countToOptions', {
-	formatter: function (value, options) {
-	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
-	}
-  });
-  
-  // start all the timers
-  $('.timer').each(count);  
-  
-  function count(options) {
-	var $this = $(this);
-	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-	$this.countTo(options);
-  }
-});
-	</script>
+                return $(this).each(function() {
+                    // set options for current element
+                    var settings = $.extend({}, $.fn.countTo.defaults, {
+                        from: $(this).data('from'),
+                        to: $(this).data('to'),
+                        speed: $(this).data('speed'),
+                        refreshInterval: $(this).data('refresh-interval'),
+                        decimals: $(this).data('decimals')
+                    }, options);
+
+                    // how many times to update the value, and how much to increment the value on each update
+                    var loops = Math.ceil(settings.speed / settings.refreshInterval),
+                        increment = (settings.to - settings.from) / loops;
+
+                    // references & variables that will change with each update
+                    var self = this,
+                        $self = $(this),
+                        loopCount = 0,
+                        value = settings.from,
+                        data = $self.data('countTo') || {};
+
+                    $self.data('countTo', data);
+
+                    // if an existing interval can be found, clear it first
+                    if (data.interval) {
+                        clearInterval(data.interval);
+                    }
+                    data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+                    // initialize the element with the starting value
+                    render(value);
+
+                    function updateTimer() {
+                        value += increment;
+                        loopCount++;
+
+                        render(value);
+
+                        if (typeof(settings.onUpdate) == 'function') {
+                            settings.onUpdate.call(self, value);
+                        }
+
+                        if (loopCount >= loops) {
+                            // remove the interval
+                            $self.removeData('countTo');
+                            clearInterval(data.interval);
+                            value = settings.to;
+
+                            if (typeof(settings.onComplete) == 'function') {
+                                settings.onComplete.call(self, value);
+                            }
+                        }
+                    }
+
+                    function render(value) {
+                        var formattedValue = settings.formatter.call(self, value, settings);
+                        $self.html(formattedValue);
+                    }
+                });
+            };
+
+            $.fn.countTo.defaults = {
+                from: 0, // the number the element should start at
+                to: 0, // the number the element should end at
+                speed: 1000, // how long it should take to count between the target numbers
+                refreshInterval: 100, // how often the element should be updated
+                decimals: 0, // the number of decimal places to show
+                formatter: formatter, // handler for formatting the value before rendering
+                onUpdate: null, // callback method for every time the element is updated
+                onComplete: null // callback method for when the element finishes updating
+            };
+
+            function formatter(value, settings) {
+                return value.toFixed(settings.decimals);
+            }
+        }(jQuery));
+
+        jQuery(function($) {
+            // custom formatting example
+            $('.count-number').data('countToOptions', {
+                formatter: function(value, options) {
+                    return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                }
+            });
+
+            // start all the timers
+            $('.timer').each(count);
+
+            function count(options) {
+                var $this = $(this);
+                options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                $this.countTo(options);
+            }
+        });
+    </script>
+
+
+
 </body>
 
 </html>

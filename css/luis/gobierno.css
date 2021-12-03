@@ -6,6 +6,10 @@ body{
 .government-description{
     text-align: justify;
 }
+.underlined{
+    margin-top: -30px;
+    height: 15px;
+}
 
 /* .student-general{
     width: 350px;

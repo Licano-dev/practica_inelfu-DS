@@ -1,0 +1,38 @@
+.container-personas{
+	display: flex;
+	background:#F4F6F4 ;
+    margin: 70px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 1006px;
+    height: 346px;
+    align-items: center;
+     position: relative;
+    left: 81px;
+}
+.personas{
+	margin-left: 50px ;
+}
+
+h5{
+	width: 226px;
+	height: 19px;
+	position: relative;
+	top: 20px;
+}
+
+
+.foto-img{
+	border-radius: 50%;
+}
+.personas-info{
+	margin-left: 150px ;
+	width: 572px;
+	height: 184px;
+}
+.btn-success{
+	position: relative;
+	left: 450px;
+	top: 30px;
+	border-radius: 30px;
+}
